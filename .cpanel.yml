@@ -1,0 +1,15 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/janveyjnn/public_html/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R forms $DEPLOYPATH
+    - /bin/cp -R _DataURI $DEPLOYPATH
+    - /bin/cp -R app.framerstatic.com $DEPLOYPATH
+    - /bin/cp -R events.framer.com $DEPLOYPATH
+    - /bin/cp -R fonts.gstatic.com/s $DEPLOYPATH
+    - /bin/cp -R framerusercontent.com $DEPLOYPATH
+    - /bin/cp -R high-designs-481839.framer.app $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp LICENSE $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
