@@ -13,3 +13,4 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp LICENSE $DEPLOYPATH
     - /bin/cp README.md $DEPLOYPATH
+    - /bin/cp test.html $DEPLOYPATH
